@@ -1,0 +1,137 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: timesnewroman, bubblegum Sans;
+  padding: 100px;
+  background: #F5DEB3;
+  font-size: 16px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 50px;
+  text-align: center;
+  background: #7C3030;
+  text- color: #FFFFFF;
+  text-decoration: bold;
+}
+
+.header h1 {
+  font-size: 50px;
+  text- color: white;
+
+}
+.header h2 {
+  font-size: 30px;
+  text-decoration: underline;
+
+
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#4A0404;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: underline;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #7C3030;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #ddd;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+/* image 
+.image-container{
+  text-align: center;
+}
+.image-container img{
+  display: inline-block;
+}
+
+}
+/* Style for the footer */
+footer {
+  background-color: #f8f9fa; /* Light background */
+  padding: 20px;           /* Add spacing */
+  text-align: center;      /* Center-align text */
+  border-top: 1px solid #ddd; /* Subtle top border */
+}
+
+/* Style for the text */
+.last-updated {
+  font-size: 14px;         /* Adjust font size */
+  color: #555;             /* Muted text color */
+  font-family: Arial, sans-serif; /* Clean font */
+<footer>
+        <p>&copy; 2024 Qurratu Aini. All rights reserved.</p>
+    </footer>
+}
+
+
